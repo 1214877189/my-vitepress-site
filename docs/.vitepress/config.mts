@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 import type { HeadConfig } from 'vitepress'
 import { langchainSidebar, langgraphSidebar, vibeSidebar, pythonSidebar } from './sidebars'
 
-const site = 'https://sugar.github.io'
-const homeUrl = site + '/sugar-house/'
+const site = 'https://1214877189.github.io/'
+const homeUrl = site + '/my-vitepress-site/'
 
 
 
@@ -14,7 +14,7 @@ export default defineConfig({
   title: "sugar_house",
   description: "热爱编程",
   lang: 'zh-CN',
-  base: '/sugar-house/',
+  base: '/my-vitepress-site/',
   
   srcDir: '.',
   srcExclude: ['**/代码/**', '**/code/**', '**/.venv/**', '**/node_modules/**', '**/langgraph-runtime-viz/**'],
