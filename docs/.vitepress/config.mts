@@ -5,9 +5,9 @@ import { langchainSidebar, langgraphSidebar, vibeSidebar, pythonSidebar } from '
 //const site = 'https://1214877189.github.io/'
 //const homeUrl = site + '/my-vitepress-site/'
 
-使用自定义域名
-// const site = 'https://note.sweets.dpdns.org'
-// const base = '/'
+//使用自定义域名
+const site = 'https://note.sweets.dpdns.org'
+const base = '/'
 
 
 
