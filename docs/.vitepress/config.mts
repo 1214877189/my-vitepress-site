@@ -18,7 +18,7 @@ export default defineConfig({
   title: "sugar_house",
   description: "热爱编程",
   lang: 'zh-CN',
-  base: '/my-vitepress-site/',
+  base: base,
   
   srcDir: '.',
   srcExclude: ['**/代码/**', '**/code/**', '**/.venv/**', '**/node_modules/**', '**/langgraph-runtime-viz/**'],
