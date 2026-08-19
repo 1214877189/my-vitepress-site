@@ -75,7 +75,7 @@ export default defineConfig({
 
 	// 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/1214877189/my-vitepress-site' }
     ],
 	
 	search: {
@@ -121,8 +121,8 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
 
     footer: {
-      message: '课程版权归尚硅谷所有，本站仅供学习交流',
-      copyright: 'Copyright © 尚硅谷 · 笔记整理',
+      message: '基于 MIT 许可发布',
+      copyright: 'Copyright © sugar_house · 笔记整理',
     },
   },
   
