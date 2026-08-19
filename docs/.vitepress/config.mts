@@ -2,8 +2,12 @@ import { defineConfig } from 'vitepress'
 import type { HeadConfig } from 'vitepress'
 import { langchainSidebar, langgraphSidebar, vibeSidebar, pythonSidebar } from './sidebars'
 
-const site = 'https://1214877189.github.io/'
-const homeUrl = site + '/my-vitepress-site/'
+//const site = 'https://1214877189.github.io/'
+//const homeUrl = site + '/my-vitepress-site/'
+
+使用自定义域名
+// const site = 'https://note.sweets.dpdns.org'
+// const base = '/'
 
 
 
