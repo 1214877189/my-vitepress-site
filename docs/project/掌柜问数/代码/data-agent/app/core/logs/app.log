@@ -1,0 +1,23 @@
+2026-01-23 16:07:00.283 | INFO     | request_id - 1 | __main__:<module>:40 - hello world
+2026-01-23 16:08:22.404 | INFO     | request_id - 1 | __main__:graph:29 - request-1
+2026-01-23 16:08:22.405 | INFO     | request_id - 1 | __main__:graph:29 - request-2
+2026-01-23 16:09:32.860 | INFO     | request_id - 1 | __main__:graph:29 - request-1
+2026-01-23 16:09:32.861 | INFO     | request_id - 1 | __main__:graph:29 - request-2
+2026-01-23 16:12:53.244 | INFO     | request_id - request-1 | __main__:graph:43 - request-1
+2026-01-23 16:12:54.251 | INFO     | request_id - request-2 | __main__:graph:43 - request-2
+2026-01-23 16:13:51.836 | INFO     | request_id - request-1 | __main__:graph:43 - request-1
+2026-01-23 16:13:51.836 | INFO     | request_id - request-2 | __main__:graph:43 - request-2
+2026-01-23 16:13:58.128 | INFO     | request_id - request-1 | __main__:graph:43 - request-1
+2026-01-23 16:13:58.128 | INFO     | request_id - request-2 | __main__:graph:43 - request-2
+2026-01-23 16:23:20.772 | INFO     | request_id - request-1 | __main__:graph:43 - request-1
+2026-01-23 16:23:20.772 | INFO     | request_id - request-2 | __main__:graph:43 - request-2
+2026-01-23 16:31:45.480 | INFO     | request_id - 1 | __main__:graph:11 - request-1
+2026-01-23 16:31:45.481 | INFO     | request_id - 1 | __main__:graph:11 - request-2
+2026-01-23 16:32:20.016 | INFO     | request_id - request-1 | __main__:graph:43 - request-1
+2026-01-23 16:32:20.016 | INFO     | request_id - request-2 | __main__:graph:43 - request-2
+2026-01-23 17:07:24.247 | INFO     | request_id - 1 | __main__:<module>:8 - Logging initialized
+2026-01-23 17:07:52.392 | INFO     | request_id - 1 | __main__:<module>:8 - Logging initialized
+2026-01-23 17:07:52.392 | ERROR    | request_id - 1 | __main__:<module>:9 - Error
+2026-01-23 17:08:39.099 | INFO     | request_id - 1 | __main__:test:11 - test
+2026-01-23 17:20:09.672 | INFO     | request_id - 1 | __main__:test:12 - test
+2026-01-23 17:30:16.382 | INFO     | request_id - 1 | __main__:test:12 - test

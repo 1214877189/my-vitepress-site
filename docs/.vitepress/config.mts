@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import type { HeadConfig } from 'vitepress'
-import { langchainSidebar, langgraphSidebar, vibeSidebar, pythonSidebar } from './sidebars'
+import { langchainSidebar, langgraphSidebar, vibeSidebar, pythonSidebar, dianShangXiaoErSidebar, zhangGuiWenShuSidebar } from './sidebars'
 
 //const site = 'https://1214877189.github.io/'
 //const homeUrl = site + '/my-vitepress-site/'
@@ -8,8 +8,6 @@ import { langchainSidebar, langgraphSidebar, vibeSidebar, pythonSidebar } from '
 //使用自定义域名
 const site = 'https://note.sweets.dpdns.org'
 const base = '/'
-
-
 
 // https://vitepress.dev/reference/site-config
 // 直接使用 defineConfig 即可获得完整的类型提示
@@ -75,6 +73,8 @@ export default defineConfig({
       '/langchain/': langchainSidebar,
       '/langgraph/': langgraphSidebar,
       '/vibe_coding/': vibeSidebar,
+	  '/project/电商小二/': dianShangXiaoErSidebar,
+	  '/project/掌柜问数/': zhangGuiWenShuSidebar,
 	},
 
 	// 社交链接

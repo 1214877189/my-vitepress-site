@@ -100,3 +100,45 @@ export const pythonSidebar: DefaultTheme.SidebarItem[] = [
     ],
   },
 ]
+
+export const dianShangXiaoErSidebar: DefaultTheme.SidebarItem[] = [
+  {
+    text: '电商小二 课件',
+    items: [
+      { text: '01 · 项目概述与整体架构', link: '/project/电商小二/课件/01-项目概述与整体架构' },
+      { text: '02 · 领域模型domain', link: '/project/电商小二/课件/02-领域模型domain' },
+      { text: '03 · 流程数据模型与加载', link: '/project/电商小二/课件/03-流程数据模型与加载' },
+      { text: '04 · 三层架构', link: '/project/电商小二/课件/04-三层架构' },
+      { text: '05 · DialogueEngine 与 TurnPlanner的LLM调用', link: '/project/电商小二/课件/05-DialogueEngine 与 TurnPlanner的LLM调用' },
+      { text: '06 · 防幻觉校验与对象消息处理', link: '/project/电商小二/课件/06-防幻觉校验与对象消息处理' },
+      { text: '07 · TaskHandler与CommandProcessor', link: '/project/电商小二/课件/07-TaskHandler与CommandProcessor' },
+      { text: '08 · Action实现', link: '/project/电商小二/课件/08-Action实现' },
+      { text: '09 · FlowExecutor执行器', link: '/project/电商小二/课件/09-FlowExecutor执行器' },
+      { text: '10 · 信息检索与闲聊', link: '/project/电商小二/课件/10-信息检索与闲聊' },
+      { text: '11 · 历史对话实现', link: '/project/电商小二/课件/11-历史对话实现' },
+    ],
+  },
+  {
+    text: '相关链接',
+    items: [
+      { text: '视频分 P 目录', link: '/project/电商小二/README' },
+      { text: 'B 站在线观看', link: 'https://www.bilibili.com/video/BV1z7tR64EpY' },
+    ],
+  },
+]
+
+export const zhangGuiWenShuSidebar: DefaultTheme.SidebarItem[] = [
+  {
+    text: '掌柜问数 课件',
+    items: [
+      { text: '01 · 掌柜问数', link: '/project/掌柜问数/课件/掌柜问数' },
+    ],
+  },
+  {
+    text: '相关链接',
+    items: [
+      { text: '视频分 P 目录', link: '/project/掌柜问数/README' },
+      { text: 'B 站在线观看', link: 'https://www.bilibili.com/video/BV1jVb16AEQ3' },
+    ],
+  },
+]
