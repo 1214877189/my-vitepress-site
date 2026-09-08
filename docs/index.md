@@ -18,7 +18,7 @@ hero:
     # --- 第二组：实战与新趋势 ---
     - theme: alt
       text: 🚀 项目实战：掌柜问数
-      link: /project/掌柜问数/课件/尚硅谷大模型项目之掌柜问数
+      link: /project/掌柜问数/课件/掌柜问数
     - theme: alt
       text: 🚀 项目实战：电商小二
       link: /project/电商小二/课件/00-使用uv管理项目
