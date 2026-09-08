@@ -105,7 +105,8 @@ export const dianShangXiaoErSidebar: DefaultTheme.SidebarItem[] = [
   {
     text: '电商小二 课件',
     items: [
-      { text: '01 · 项目概述与整体架构', link: '/project/电商小二/课件/01-项目概述与整体架构' },
+      { text: '00 · 使用uv管理项目', link: '/project/电商小二/课件/00-使用uv管理项目' },
+	  { text: '01 · 项目概述与整体架构', link: '/project/电商小二/课件/01-项目概述与整体架构' },
       { text: '02 · 领域模型domain', link: '/project/电商小二/课件/02-领域模型domain' },
       { text: '03 · 流程数据模型与加载', link: '/project/电商小二/课件/03-流程数据模型与加载' },
       { text: '04 · 三层架构', link: '/project/电商小二/课件/04-三层架构' },

@@ -32,40 +32,40 @@ export default defineConfig({
 	logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: 'Python',
-        items: [
-          { text: '课件目录', link: '/python/课件/01-必备基础知识' },
-          { text: '视频分 P', link: '/python/README' },
-          { text: 'B 站视频', link: 'https://www.bilibili.com/video/BV1tDsgzxECr' },
-        ],
-      },
-      {
-        text: 'LangChain',
-        items: [
-          { text: '课件目录', link: '/langchain/课件/01-LangChain概述' },
-          { text: 'Notebook', link: '/langchain/notebooks' },
-          { text: '视频分 P', link: '/langchain/README' },
-          { text: 'B 站视频', link: 'https://www.bilibili.com/video/BV1rv7A6oEeP' },
-        ],
-      },
-      {
-        text: 'LangGraph',
-        items: [
-          { text: '课件目录', link: '/langgraph/课件/00-环境配置' },
-          { text: 'Notebook', link: '/langgraph/notebooks' },
-          { text: '视频分 P', link: '/langgraph/README' },
-          { text: 'B 站视频', link: 'https://www.bilibili.com/video/BV1z3NY66EY1' },
-        ],
-      },
-      {
-        text: 'AI Coding',
-        items: [
-          { text: '课件目录', link: '/vibe_coding/课件/00-课程介绍与环境准备' },
-          { text: '视频分 P', link: '/vibe_coding/README' },
-          { text: 'B 站视频', link: 'https://www.bilibili.com/video/BV1RPET6tEp2' },
-        ],
-      },
+    //  {
+    //    text: 'Python',
+    //    items: [
+    //      { text: '课件目录', link: '/python/课件/01-必备基础知识' },
+    //      { text: '视频分 P', link: '/python/README' },
+    //      { text: 'B 站视频', link: 'https://www.bilibili.com/video/BV1tDsgzxECr' },
+    //    ],
+    //  },
+    //  {
+    //    text: 'LangChain',
+    //    items: [
+    //      { text: '课件目录', link: '/langchain/课件/01-LangChain概述' },
+    //      { text: 'Notebook', link: '/langchain/notebooks' },
+    //      { text: '视频分 P', link: '/langchain/README' },
+    //      { text: 'B 站视频', link: 'https://www.bilibili.com/video/BV1rv7A6oEeP' },
+    //    ],
+    //  },
+    //  {
+    //    text: 'LangGraph',
+    //    items: [
+    //      { text: '课件目录', link: '/langgraph/课件/00-环境配置' },
+    //      { text: 'Notebook', link: '/langgraph/notebooks' },
+    //      { text: '视频分 P', link: '/langgraph/README' },
+    //      { text: 'B 站视频', link: 'https://www.bilibili.com/video/BV1z3NY66EY1' },
+    //    ],
+    //  },
+    //  {
+    //    text: 'AI Coding',
+    //    items: [
+    //      { text: '课件目录', link: '/vibe_coding/课件/00-课程介绍与环境准备' },
+    //      { text: '视频分 P', link: '/vibe_coding/README' },
+    //      { text: 'B 站视频', link: 'https://www.bilibili.com/video/BV1RPET6tEp2' },
+    //    ],
+    //  },
     ],
 	
 	sidebar: {
