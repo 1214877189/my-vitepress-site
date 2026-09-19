@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import type { HeadConfig } from 'vitepress'
-import { langchainSidebar, langgraphSidebar, vibeSidebar, pythonSidebar, dianShangXiaoErSidebar, zhangGuiWenShuSidebar } from './sidebars'
+import { langchainSidebar, langgraphSidebar, vibeSidebar, pythonSidebar, dianShangXiaoErSidebar, zhangGuiWenShuSidebar, deepAgentsSidebar } from './sidebars'
 
 //const site = 'https://1214877189.github.io/'
 //const homeUrl = site + '/my-vitepress-site/'
@@ -75,6 +75,7 @@ export default defineConfig({
       '/vibe_coding/': vibeSidebar,
 	  '/project/电商小二/': dianShangXiaoErSidebar,
 	  '/project/掌柜问数/': zhangGuiWenShuSidebar,
+	  '/tutorial/Deep Agents/': deepAgentsSidebar,
 	},
 
 	// 社交链接

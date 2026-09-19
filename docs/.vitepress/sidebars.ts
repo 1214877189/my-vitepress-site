@@ -143,3 +143,24 @@ export const zhangGuiWenShuSidebar: DefaultTheme.SidebarItem[] = [
     ],
   },
 ]
+
+
+export const deepAgentsSidebar: DefaultTheme.SidebarItem[] = [
+  {
+    text: 'Deep Agents 课件',
+    items: [
+      { text: '00 · deepagents_笔记', link: '/tutorial/Deep Agents/课件/deepagents_笔记' },
+      { text: '01 · deepAgents', link: '/tutorial/Deep Agents/课件/1.deepAgents' },
+      { text: '02 · 深度搜索项目', link: '/tutorial/Deep Agents/课件/2.深度搜索项目' },
+      { text: '03 · RAGFlow', link: '/tutorial/Deep Agents/课件/3.RAGFlow' },
+      { text: '04 · api 文档', link: '/tutorial/Deep Agents/课件/4.api文档' },
+    ],
+  },
+  {
+    text: '相关链接',
+    items: [
+      { text: '视频分 P 目录', link: '/tutorial/Deep Agents/README' },
+      { text: 'B 站在线观看', link: 'https://www.bilibili.com/video/BV1RPET6tEp2' },
+    ],
+  },
+]

@@ -8,9 +8,9 @@ hero:
   tagline: 每天进步一点点，从零基础到 AI 应用开发
   actions:
     # --- 第一组：核心教程入口 ---
-    #- theme: brand
-    #  text: 📚 Python 零基础
-    #  link: /python/课件/01-必备基础知识
+    - theme: brand
+      text: 📚 Deep Agents
+      link: /tutorial/Deep Agents/课件/deepagents_笔记
     #- theme: brand
     #  text: 🤖 LangChain & Graph
     #  link: /langchain/课件/01-LangChain概述
