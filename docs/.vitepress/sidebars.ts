@@ -160,7 +160,7 @@ export const deepAgentsSidebar: DefaultTheme.SidebarItem[] = [
     text: '相关链接',
     items: [
       { text: '视频分 P 目录', link: '/tutorial/Deep Agents/README' },
-      { text: 'B 站在线观看', link: 'https://www.bilibili.com/video/BV1RPET6tEp2' },
+      { text: 'B 站在线观看', link: 'https://www.bilibili.com/video/BV1treU6uEch' },
     ],
   },
 ]
